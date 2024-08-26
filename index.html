@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <div class="login-form">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" placeholder="Insira o nome de usuário">
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" placeholder="Insira a senha">
+
+        <input type="button" value="Login" onclick="verificarLogin()">
+
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
